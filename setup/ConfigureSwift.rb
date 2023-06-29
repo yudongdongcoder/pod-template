@@ -56,10 +56,10 @@ module Pod
       `mv ./templates/swift/* ./`
 
       # remove podspec for osx
-      `rm ./NAME-osx.podspec`
-      'pwd'
-      'unzip -o ./gitignore_template.zip -d ./'
-      'rm ./gitignore_template.zip'
+      # `rm ./NAME-osx.podspec`
+      # 'pwd'
+      # 'unzip -o ./gitignore_template.zip -d ./'
+      # 'rm ./gitignore_template.zip'
     end
   end
 
