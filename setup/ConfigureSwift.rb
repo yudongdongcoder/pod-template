@@ -57,9 +57,9 @@ module Pod
 
       # remove podspec for osx
       `rm ./NAME-osx.podspec`
-
-      'unzip -o gitignore_template.zip -d ./'
-      'rm gitignore_template.zip'
+      'pwd'
+      'unzip -o ./gitignore_template.zip -d ./'
+      'rm ./gitignore_template.zip'
     end
   end
 
